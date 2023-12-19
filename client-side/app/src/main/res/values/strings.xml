@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">carDetection</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string-array name="illegal_parking_options">
+        <item>소화전</item>
+        <item>교차로 모퉁이</item>
+        <item>버스 정류소</item>
+        <item>횡단 보도</item>
+        <item>어린이 보호 구역</item>
+        <item>인도</item>
+        <item>장애인 전용 구역</item>
+        <item>소방차 전용 구역</item>
+        <item>친환경차 충전 구역</item>
+    </string-array>
+
+    <!-- 자동차/교통위반 옵션 -->
+    <string-array name="traffic_violation_options">
+        <item>적재물 추락방지, 중량/용량 위반</item>
+        <item>교통위반(고속도로 포함)</item>
+        <item>버스전용차로 위반(일반도로)</item>
+        <item>번호판 규정 위반</item>
+        <item>불법등화, 반사판(지) 가림/손상</item>
+        <item>불법 튜닝, 해체 조작</item>
+        <item>기타 자동차 안전기준 위반</item>
+    </string-array>
+</resources>
